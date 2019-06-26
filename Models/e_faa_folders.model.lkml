@@ -1,8 +1,6 @@
 connection: "faa"
 
 include: "/**/*.view"
-include: "/Views/accidents.view"
-include: "/Views/airlines/carriers.view"
 
 
 datagroup: e_faa_folders_default_datagroup {
