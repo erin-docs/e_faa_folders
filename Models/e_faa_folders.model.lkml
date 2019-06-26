@@ -1,7 +1,7 @@
 connection: "faa"
 
 # include all the views
-include: "*.view"
+include: "/**/*.view"
 
 datagroup: e_faa_folders_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
