@@ -1,7 +1,9 @@
 connection: "faa"
 
-# include all the views
 include: "/**/*.view"
+include: "/Views/accidents.view"
+include: "/Views/airlines/carriers.view"
+
 
 datagroup: e_faa_folders_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
