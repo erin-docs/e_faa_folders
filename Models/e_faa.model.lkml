@@ -1,11 +1,9 @@
 connection: "faa"
 
 include: "/Views/accidents.view"
-include: "/Views/airlines/carriers.view"
 include: "/Views/aircraft/*.view"
 
 
-explore: carriers {}
 
 explore: accidents {}
 

@@ -1,6 +1,6 @@
 connection: "faa"
 
-include: "/**/*.view"
+include: "/**/*.view.lkml"
 
 
 datagroup: e_faa_folders_default_datagroup {
