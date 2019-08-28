@@ -3,7 +3,9 @@ connection: "faa"
 include: "/Views/accidents.view"
 include: "/Views/aircraft/*.view"
 
-
+map_layer: world {
+  file: "/Data/world.topo.json"
+}
 
 explore: accidents {}
 
