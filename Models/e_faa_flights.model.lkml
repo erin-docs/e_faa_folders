@@ -2,6 +2,9 @@ connection: "faa"
 
 include: "/**/*.view.lkml"
 
+map_layer: world {
+  file: "/Data/world.topo.json"
+}
 
 datagroup: e_faa_folders_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
