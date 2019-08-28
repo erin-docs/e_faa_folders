@@ -1,6 +1,8 @@
 view: accidents {
   sql_table_name: flightstats.accidents ;;
 
+# testing changes
+
   dimension: id {
     primary_key: yes
     type: number
