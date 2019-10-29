@@ -7,7 +7,9 @@ map_layer: world {
   file: "/Data/world.topo.json"
 }
 
-explore: accidents {}
+explore: accidents {
+  description: "Accidents"
+}
 
 explore: aircraft_engine_types {}
 
