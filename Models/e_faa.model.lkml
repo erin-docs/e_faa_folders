@@ -1,13 +1,11 @@
 connection: "faa"
 
-include: "/Views/accidents.view"
 include: "/Views/aircraft/*.view"
 include: "/Views/*.view"
 
 map_layer: world {
   file: "/Data/world.topo.json"
 }
-
 
 datagroup: e_faa_datagroup {
   #label: "ETL ID added"
