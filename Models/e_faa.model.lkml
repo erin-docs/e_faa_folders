@@ -1,8 +1,8 @@
 connection: "faa"
 
 
-include: "/Views/aircraft/*.view"
-include: "/Views/*.view"
+#include: "/Views/aircraft/*.view"
+include: "/Views/faa.view"
 include: "/Explores/aircraft.explore.lkml"
 
 map_layer: world {
