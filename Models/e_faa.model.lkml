@@ -3,7 +3,7 @@ connection: "faa"
 
 include: "/Views/aircraft/*.view"
 include: "/Views/*.view"
-include: "/Explores/faa.explore.lkml"
+include: "/Explores/aircraft.explore.lkml"
 
 map_layer: world {
   file: "/Data/world.topo.json"

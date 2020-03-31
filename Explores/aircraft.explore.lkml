@@ -1,8 +1,6 @@
 
 include: "/Views/*.lkml"
 
-explore: aircraft_engine_types {}
-
 explore: aircraft {
   join: aircraft_types {
     type: left_outer
