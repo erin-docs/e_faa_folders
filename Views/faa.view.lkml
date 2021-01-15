@@ -1,6 +1,5 @@
 #aggregate_awareness: yes
 
-case_sensitive: no
 
 explore: faa_flights {
 
